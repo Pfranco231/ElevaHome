@@ -1,5 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap');
 
+@media (max-width: 768px){
+  .grid-container{
+    display: block !important;
+    align-items: center;
+    height: 950px;
+  }
+  
+  .airpods{
+    margin-left: 20%;
+  }
+
+  .typ{
+    margin-left: 10px;
+  }
+  
+  .comprar{
+    width: auto;
+    height: 3.5rem;
+    border-radius: 10px;
+    margin-left: 230px;
+  }
+}
+
+@media (max-width: 1024px){
+  .grid-container{
+    display: block !important;
+    align-items: center;
+    height: 950px;
+  }
+  
+  .airpods{
+    margin-left: 20%;
+  }
+
+  .typ{
+    margin-left: 10px;
+  }
+  
+  .comprar{
+    width: auto;
+    height: 3.5rem;
+    border-radius: 10px;
+    margin-left: 350px;
+  }
+}
+
 header img{
     width: auto;
     height: 4rem;
