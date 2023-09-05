@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eleva - ayuda</title>
     <link rel="stylesheet" href="../Styles/Style.css">
+    <!-- Aos Css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="Styles/Style.css">
+    <!-- bootstap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
@@ -42,7 +51,8 @@
       </div>
     </nav>
   </header>
-    <main>
+    <main data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <center>Si necesitas ayuda puedes comunicarte por whatsapp</center>
         <a href="https://w.app/Eleva" target="_blank">
             <center><img src="../imgs/Whatsapp-logo.png" alt="Whatsapp-logo" class="whatsapp-ayuda"></center>
@@ -52,5 +62,8 @@
       <h5>Copyright - 2023</h5>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
